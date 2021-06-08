@@ -1,7 +1,7 @@
 guests = ['person1','person2','person3','person4']
 for person in guests:
-    print(f"{person.title()}, you are invited to dinner!") #I have no idea why this doesn't work
-
+    print(f"{person.title()}, you are invited to dinner!") 
+    
 print(f"\n{guests[1].title()} cant' make it anymore, so...")
 
 del guests[1]
